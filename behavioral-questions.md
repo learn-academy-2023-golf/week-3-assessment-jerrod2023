@@ -4,7 +4,7 @@ Answer the following questions. Use the Nugget + STAR method for each answer.
 
 1. Tell me about a project or accomplishment you’re proud of.
 
-- Nugget:  Successfully leading a team through a challenging training exercise.
+- Nugget:  Successfully leading a team through a challenging training exercises.
 
 - Situation: As a member of the US Navy, I was tasked with preparing my team for a complex and demanding training scenario.
 

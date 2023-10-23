@@ -129,5 +129,4 @@ function sortObjectValues(obj) {
 //              It then sorts the values in ascending order, resulting in the sortedValues
 //              return expected output:
 //               [15, 15, 20, 30, 30, 60, 90]
-//              
 //               [10, 15, 20, 45, 60, 65, 100]

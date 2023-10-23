@@ -35,7 +35,7 @@ Researched answer: State is a built-in feature in React that represents the inte
   return <div>Welcome, {props.name}!</div>;
 } -->
 
-4. STRETCH: Which is the difference between a div tag and a span tag?
+4. STRETCH: Which is the difference between a div tag and a span tags?
 
 Researched answer: div is a block-level element. This means it takes up the full width available and starts on a new line.
 

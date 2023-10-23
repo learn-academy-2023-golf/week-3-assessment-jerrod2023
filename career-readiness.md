@@ -13,7 +13,7 @@ https://www.canva.com/design/DAFx1jvYXv4/asAwlwRUBPjs8Y_jFon9OA/edit
 
 ### LinkedIn
 
-Your LinkedIn url:
+Your LinkedIn url: https://www.linkedin.com/in/jerrodmags20/
 
 Check the boxes below to certify that you have completed the following items on LinkedIn:
 
