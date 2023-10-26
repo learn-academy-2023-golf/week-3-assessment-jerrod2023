@@ -7,6 +7,7 @@
 <!-- HINT: Check the console in the browser developer tools for errors. The lines numbers may not match up exactly with the line numbers in your text editor due to the commented out lines in this file. -->
 
 <!DOCTYPE html>
+
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
@@ -65,13 +66,16 @@
         // No need to change anything ABOVE this line ^
 
         return (
-          <h1>Draw a Card</h1>
-          <button onClick={}>
+          <>
+          <h1>Draw a Card</h1> 
+          <button onClick={drawCard}>
             Click to Draw a Card
           </button>
-          <button onclick={shuffle}>
+
+          <button onClick={shuffle}>
             Return Cards and Shuffle Deck
           </button>
+
           <div style={handStyles}>
             {hand.map((card, index) => {
               return (
@@ -81,10 +85,11 @@
               )
             })}
           </div>
+          </>
         )
       }
 
-      // No need to change anything below this line
+      // No need to change anything below this lines
 
       const domContainer = document.querySelector('#react-container')
       const root = ReactDOM.createRoot(domContainer)
@@ -92,3 +97,10 @@
     </script>
   </body>
 </html>
+
+<!-- The return on line 68 started with a heading without being wrap by the parent element. React needs all elements in the "return" statement to be wrap in a single parent element. i.e "<div></div>" or just a regular "fragments" "<> </>"" from  line 69 where return started all the way to line 88-->
+
+<!-- Line 71 was not define and the curly brackets left empty. Need to provide a function to call in, which is drawCard-->
+
+<!-- Line 75 requires capitalization, in React we use camelCases -->
+
